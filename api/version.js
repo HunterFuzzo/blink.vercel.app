@@ -9,9 +9,9 @@ module.exports = async (req, res) => {
   }
 
   res.status(200).json({
-    version: "1.2.0",
-    publishedAt: "2026-11-02T16:00:00Z",
-    notes: "Mise à jour v1.2.0 : Système d'auto-update OTA transparent, nouveau logo squircle, liaison d'abonnement Stripe par email en 1 clic.",
+    version: "1.2.1",
+    publishedAt: "2026-11-03T11:55:00Z",
+    notes: "Mise à jour v1.2.1 : Authentification par compte email & code sécurisé, liaison multi-plateformes, interface impeccable.",
     bundleUrl: "https://thisisblink.vercel.app/updates/bundle-latest.zip",
     fallbackBundleUrl: "https://thisisblink.vercel.app/updates/bundle-latest.zip"
   });
