@@ -13,6 +13,6 @@ module.exports = async (req, res) => {
     publishedAt: "2026-11-02T16:00:00Z",
     notes: "Mise à jour v1.2.0 : Système d'auto-update OTA transparent, nouveau logo squircle, liaison d'abonnement Stripe par email en 1 clic.",
     bundleUrl: "https://thisisblink.vercel.app/updates/bundle-latest.zip",
-    fallbackBundleUrl: "https://raw.githubusercontent.com/HunterFuzzo/goblink/main/updates/bundle-latest.zip"
+    fallbackBundleUrl: "https://thisisblink.vercel.app/updates/bundle-latest.zip"
   });
 };
